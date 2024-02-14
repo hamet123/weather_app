@@ -1,0 +1,44 @@
+.maindiv {
+background: rgba(255,255,255,0.40);
+backdrop-filter: blur(10px);
+margin:0 auto;
+border-radius:10px;
+width:50%;
+color:white;
+}
+
+body{
+/* background: url('/images/backg.jpg'); */
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+.border{
+border:1px solid rgb(0, 0, 0);
+}
+
+
+img {
+background: rgba(168, 175, 229, 0.2);
+border-radius:50%;
+height:90px;
+width:90px;
+}
+
+.specialfont2 {
+text-align: center !important;
+padding-top:20px;
+}
+
+
+
+.locdetails {
+border-right: 3px solid rgb(62, 62, 62);
+}
+
+.specialfont{
+    color: rgb(34, 34, 34) !important;
+    font-weight:bold;
+}
