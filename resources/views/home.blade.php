@@ -15,12 +15,6 @@
 
 <body style="background-image: url('/images/backg-min.jpg');" loading="lazy">
     <section>
-        @if (isset($noCityFound))
-            <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                <strong>{{ session('noCityFound') }}</strong>
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-        @endif
         <div class="container maindiv p-5 mt-5">
             <form action="/" method="POST">
                 @csrf
