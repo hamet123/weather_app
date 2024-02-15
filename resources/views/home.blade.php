@@ -58,7 +58,7 @@
                     <div class="col-md-6">
                         <p class="specialfont">Humidity - {{ isset($weather['main']['humidity']) ? $weather['main']['humidity'] : '0' }} %</p>
                         <p class="specialfont">Pressure - {{ isset($weather['main']['pressure']) ? $weather['main']['pressure'] : '0' }} mmHg </p>
-                        <p class="specialfont">Wind Speed - {{ isset($weather['main']['speed']) ? $weather['main']['speed'] : '0' }} m/s</p>
+                        <p class="specialfont">Wind Speed - {{ isset($weather['wind']['speed']) ? $weather['wind']['speed'] : '0' }} m/s</p>
                     </div>
                 </div>
             @endif
